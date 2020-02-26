@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/workspaces/C_C++/Algorithm/main.cpp
+iostream
+-
+recursion.h
+D:/workspaces/C_C++/Algorithm/recursion.h
+
+D:/workspaces/C_C++/Algorithm/recursion.h
+bits/stdc++.h
+-
+
