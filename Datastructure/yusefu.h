@@ -1,6 +1,4 @@
-//
-// Created by 46071 on 2020/2/25.
-//
+
 /*约瑟夫游戏的大意：30个游客同乘一条船，因为严重超载， 加上风浪大作，危险万分。因此船长告诉乘客，
 只有将全船 一半的旅客投入海中，其余人才能幸免于难。无奈，
 大家只 得同意这种办法，并议定 30 个人围成一圈，由第一个人数
@@ -45,7 +43,12 @@ int getLength(Person *header){
     }
     return len+1;
 }
-
+void Print(int array[],int length){
+    for(int i=0;i<length;i++){
+        printf("%d ",array[i]);
+    }
+    printf("\n");
+}
 void printList(Person *header){
     Person *p = header;
     while(p->next!= header){
@@ -76,4 +79,9 @@ int* Yuesefu(int n,int k){
     return result;
 
 }
+//int main() {
+//    int* result=Yuesefu(30,9);
+//    Print(result,15);
+//    return 0;
+//}
 #endif //DATASTRUCTURE_YUSEFU_H
